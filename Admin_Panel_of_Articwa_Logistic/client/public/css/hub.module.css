@@ -1,0 +1,279 @@
+.navbarStyle{
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+}
+.mainBox{
+  display: block; 
+  margin-top: 7%;
+  width: 100%;
+}
+.flexBox{
+  position: relative;
+  gap: 1%;
+  display: flex;
+  width: 100%;
+  margin: 1% auto;
+}
+.singleBox{
+  text-decoration: none;
+  height: 8rem;
+  width: 100%;
+}
+.linkBoxes{
+  text-decoration: none;
+  height: 8rem;
+  width: 100%;
+}
+.configureBox{
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  width: 100%;
+  height: 100%; 
+  border: 2px solid black;
+  background-color: #212529;
+  color: white;
+}
+.configureText{
+  position: relative;
+  font-weight: bolder;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1:hover{
+  background-color: rgb(68, 68, 68);
+  transition: 1s;
+}
+.box2:hover{
+  background-color: #003601;
+  transition: 1s;
+}
+.box3:hover{
+  background-color: #012a4d;
+  transition: 1s;
+
+}
+.box4:hover{
+  background-color: #4b1b1b;
+  transition: 1s;
+}
+.box5{  
+  position: relative;
+  background-color: #212529;
+  padding: 6% 0;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.box5:hover{
+  background-color: #3f3f00;
+  transition: 1s;
+}
+
+.transition{
+  transition: 1s;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.textCenter{
+  position: relative;
+  width: 100%;
+  margin: 0 0;
+  text-align: center;
+}
+
+.confirmBox{
+  position: absolute;
+  left: 50%;
+  margin-top: 400px;
+}
+
+.sideBar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 15%;
+  background-color: #212529;
+  color: rgb(235, 232, 232);
+  border: 1px solid #282d32;
+  transition: 0.5s;
+  z-index: 500;
+}
+
+.sideBarElement{
+  transition: 0.2s;
+  border-bottom: 2px solid #878b90;
+}
+
+.sideBarElementHover:hover{
+  background-color: rgb(235, 232, 232);
+  color: #212529;
+}
+
+.settingBox{
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  margin-top: 10rem;
+  bottom: 0;
+  left: 0;
+  border: 2px solid gray;
+}
+.settingCol{
+  position: relative;
+  background-color: #212529;
+  padding-top: 2rem;
+  font-size: x-large;
+  font-weight: 800;
+  width: 100%;
+  height: 5rem; 
+  text-align: center;
+  color: white;
+  transition: 100ms;
+  cursor: pointer;
+}
+.settingCol:hover{
+  background-color: rgb(248, 248, 248);
+  color: #212529;
+}
+
+/* responsive */
+
+.displayInfoBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.displayInfoBoxes{
+  width: 30%;
+  margin: 0 1%;
+}
+.pageContainer{
+  display: flex;
+}
+.userPageContainer{
+  display: flex;
+  width: 100%;
+}
+.button{
+  margin-top: 100%;
+}
+
+.loginBox{
+  background-color: #212529;
+  width: 50%;
+  margin: 5% 25%;
+  padding: 5%;
+  box-shadow: inset;
+  color: white;
+  font-size: larger;
+}
+
+.eventTable{
+  width: 100%;
+  background-color: white;
+}
+
+
+@media (max-width: 1000px){
+  .loginBox{
+    background-color: #212529;
+    width: 75%;
+    margin: 5% 12.5%;
+    padding: 5%;
+    box-shadow: inset;
+    color: white;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 750px){
+  .displayInfoBox{
+     display: block;
+  }
+  .displayInfoBoxes{
+    width: 100%;
+  }
+  .pageContainer{
+    display: block;
+  }
+  .userPageContainer{
+    display: block;
+  }
+  .flexBox{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .linkBoxes{
+    text-decoration: none;
+    height: 5rem;
+    width: 100%;
+    margin: 1%;
+  }
+  .configureBox{
+    display: inline-block;
+    padding: 5% 0;
+    text-align: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    width: 100%;
+    height: 100%; 
+    border: 2px solid black;
+    background-color: #212529;
+    color: white;
+  }
+  .sideBar{
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 25%;
+    background-color: #212529;
+    color: rgb(235, 232, 232);
+    border: 1px solid #282d32;
+    transition: 0.5s;
+    z-index: 500;
+  }
+  .button{
+    margin-top: 1%;
+  }
+  .loginBox{
+    background-color: #212529;
+    width: 100%;
+    margin: 5% 0;
+    box-shadow: inset;
+    color: white;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 450px){
+  .eventTable{
+    width: 40%;
+    background-color: white;
+  }
+}
+@media (max-width: 380px){
+  .loginBox{
+    background-color: #212529;
+    width: 60%;
+    margin: 5% 20%;
+    box-shadow: inset;
+    color: white;
+    font-size: larger;
+  }
+  .eventTable{
+    text-align: center;
+    background-color: white;
+  }
+}

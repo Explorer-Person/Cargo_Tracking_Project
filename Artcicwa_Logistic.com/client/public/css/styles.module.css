@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+    background-color: #191919;
+    z-index: 1;
+}
+
+.navbarTitle {
+    position: absolute;
+    left: 10%;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    top: 20%;
+}
+
+.background {
+    background-image: url("/logos/sunset.jpg");
+    width: 100%;
+    height: 707.20px;
+    background-size: cover;
+    -moz-background-size: 100% 100%;
+    /* Firefox 3.6 */
+    -o-background-size: 100% 100%;
+    /* Opera 9.5 */
+    -webkit-background-size: 100% 100%;
+    /* Safari 3.0, Chrome */
+    background-size: 100% 100%;
+}
+
+.inputBox {
+    width: 40%;
+    height: auto;
+    background-color: rgb(26, 26, 26, 0.8);
+    position: relative;
+    text-align: center;
+    left: 30%;
+    top: 18%;
+    border-radius: 1rem;
+}
+
+.navbarShip {
+    width: 15%;
+    margin: 2% 5%;
+}
+
+.infoTables {
+    width: 100%;
+    box-shadow: #191919;
+}
+
+.infoList li {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    list-style: none;
+}
+.infoList li  h6{    
+    text-decoration: underline;
+    margin: 0.5% 2%;
+}
+.infoList li  p{  
+    font-weight: 600;
+}
+
+.infoBox{
+    width: 80%;
+    margin: 15% 10%;
+}
+.errorBox{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px teal;
+}
+
+.loadingBox{
+    width: 20%;
+    height: 70%;
+    margin-left: 40%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+}
+
+.loader { 
+    border: 10px solid #e6e6e6;
+    border-radius: 50%;
+    border-top: 10px solid black;
+    margin: 25% 25%;
+    width: 5%;
+    height: 5%;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+
+   /* Safari */
+   @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+ 
+
+@media screen and (max-width: 1000px) {
+    .navbarTitle {
+        position: absolute;
+        left: 15%;
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        top: 20%;
+    }
+    .inputBox {
+        width: 60%;
+        height: auto;
+        background-color: rgb(26, 26, 26, 0.8);
+        position: relative;
+        text-align: center;
+        left: 20%;
+        top: 20%;
+        border-radius: 1rem;
+    }
+    .errorBox{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 25%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px teal;
+    }
+    .loadingBox{
+        width: 25%;
+        height: 70%;
+        margin-left: 37.5%;
+        margin-top: 20%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .inputBox {
+        width: 90%;
+        height: auto;
+        background-color: rgb(26, 26, 26, 0.8);
+        position: relative;
+        text-align: center;
+        left: 5%;
+        top: 20%;
+        border-radius: 1rem;
+    }
+
+    .navbarShip {
+        display: none;
+        width: 15%;
+        margin: 2%;
+    }
+
+    .navbarTitle {
+        position: absolute;
+        left: 2%;
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        top: 20%;
+    }
+
+    .infoTables {
+        width: 25%;
+        box-shadow: #191919;
+    }
+
+    .infoBox{
+        width: 100%;
+        margin: 15% 0;
+    }
+    .errorBox{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 40%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px teal;
+    }
+    .loadingBox{
+        width: 50%;
+        height: 70%;
+        margin-left: 25%;
+        margin-top: 35%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .errorBox{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 60%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px teal;
+    }
+    .loadingBox{
+        width: 75%;
+        height: 70%;
+        margin-left: 12.5%;
+        margin-top: 60%;
+        margin-bottom: 15%;
+        border-radius: 10px;
+    }
+}
+
+.form {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.inputs {
+    width: 85%;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.title {
+    position: absolute;
+    left: 68%;
+    top: 5%;
+}
+
+.container {
+    position: relative;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(252, 246, 246);
+    padding: 5%;
+}
+
+.errorPage {
+    background-image: url("/logos/bg_error.jpg");
+    height: 200%;
+    overflow-y: hidden;
+}
+
+.errorMessageBox {
+    background-color: rgb(255, 255, 255, 0.6);
+    color: red;
+    text-align: center;
+    width: 50%;
+    height: 8%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.infoHeaderBox {
+    background-color: #191919;
+    color: white;
+    border: 2px solid white;
+}
+
