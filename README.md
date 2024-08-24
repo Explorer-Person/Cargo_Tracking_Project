@@ -1,7 +1,9 @@
-#Articway Logistic API Documentation
-##Table of Contents
-##Overview
-##Architecture
+
+Articway Logistic API
+
+Table of Contents
+Overview
+Architecture
 Technologies Used
 Database
 Security Features
@@ -69,46 +71,47 @@ To start using the Articway Logistic API:
 Clone the Repository:
 
 bash
-
+Kodu kopyala
 git clone https://github.com/Explorer-Person/Cargo_Tracking_Project.git
 Install Dependencies: Navigate to the project directory and install the necessary packages:
 
-bash
+Start Admin Panel API:
 
--Start Admin Panel Api:
+bash
+Kodu kopyala
 cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic
 npm install
 npm start
+Start Admin Panel Client:
 
--Start Admin Panel Client: 
+bash
+Kodu kopyala
 cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic/client
 npm install
 npm run dev
-//or build for production;
+# or build for production
+Start Cargo Track API:
 
----------------------------
-
--Start Cargo Track Api:
+bash
+Kodu kopyala
 cd Cargo_Tracking_Project/Artcicwa_Logistic.com
 npm install
 npm start
+Start Cargo Track Client:
 
--Start Cargo Track Client:
+bash
+Kodu kopyala
 cd Cargo_Tracking_Project/Artcicwa_Logistic.com/client
 npm install
-npm run dev // or build for production
-
+npm run dev
+# or build for production
 Run the API: Start the server with:
 
 bash
-
+Kodu kopyala
 npm start
 Access API Documentation: Explore the API endpoints and their usage. Documentation is provided within the codebase and available at /docs.
 
 Frontend Setup: For the frontend applications, follow the setup instructions in their respective directories.
-
-Global Error Handler: A global error handler is used to catch and return meaningful error messages from the API.
-
-Redux Toolkit Slices: Redux Toolkit's createSlice method is used to manage requests and slices in a centralized way.
 
 We hope this documentation provides valuable insights into our API architecture, technologies used, and security features!
