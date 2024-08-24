@@ -92,33 +92,33 @@ To start using the Articway Logistic API:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Explorer-Person/Cargo_Tracking_Project.git
-
+  
 * Start Admin Panel Api:
-```bash
-cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic
-npm install
-npm start
+  ```bash
+   cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic
+   npm install
+   npm start
 
 * Start Admin Panel Client:
-```bash
-cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic/client
-npm install
-npm run dev
-### or build for production
+  ```bash
+    cd Cargo_Tracking_Project/Admin_Panel_of_Articwa_Logistic/client
+    npm install
+    npm run dev
+    ### or build for production
 
 
 * Start Cargo Track API:
-```bash
-cd Cargo_Tracking_Project/Artcicwa_Logistic.com
-npm install
-npm start
+   ```bash
+   cd Cargo_Tracking_Project/Artcicwa_Logistic.com
+   npm install
+   npm start
 
 * Start Cargo Track Client:
-```bash
-cd Cargo_Tracking_Project/Artcicwa_Logistic.com/client
-npm install
-npm run dev
-### or build for production
+   ```bash
+   cd Cargo_Tracking_Project/Artcicwa_Logistic.com/client
+   npm install
+   npm run dev
+   ### or build for production
 
 * Access API Documentation: 
 Explore the API endpoints and their usage. Documentation is provided within the codebase and available at /docs.
