@@ -179,8 +179,8 @@ images:
 
 ![Ekran görüntüsü 2024-09-06 211111](https://github.com/user-attachments/assets/75a844b1-4293-462d-8d19-982d1d6c790a)
 
-![Ekran görüntüsü 2024-09-06 211621](https://github.com/user-attachments/assets/d6f874f1-5c79-43a8-b400-b144f29f124b)
 
+![Ekran görüntüsü 2024-09-17 142428](https://github.com/user-attachments/assets/abfcb070-e78c-43be-8cc6-b082149c26a6)
 
 
 
